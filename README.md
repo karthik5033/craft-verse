@@ -88,20 +88,20 @@ CraftVerse is built on a radical thesis: **Artisans should focus 100% on their m
 
 ```mermaid
 journey
-    title The Artisan's Journey with CraftVerse
-    section Sourcing & Planning
+    title The Artisan Journey with CraftVerse
+    section Sourcing and Planning
       Voice inventory check: 5: Artisan
-      AI predicts Diwali demand & bulk yarn purchase: 5: Agent Swarm
-    section Production & Proof
+      AI predicts festival demand and bulk material purchase: 5: Agent Swarm
+    section Production and Proof
       Crafting with hands: 5: Artisan
       Live Capture Coach frames lighting on low-end phone: 4: Agent Swarm
       Cryptographic Craft Passport minted: 5: Agent Swarm
     section Commercialization
       Value-based pricing calculated with fair wage floor: 5: Agent Swarm
       Vernacular voice story translated to 12 global languages: 5: Agent Swarm
-      1-Click multi-listing on ONDC, Amazon, Etsy: 5: Agent Swarm
-    section Payout & Growth
-      Automated prepaid escrow & instant UPI payout: 5: Agent Swarm
+      One-click multi-listing on ONDC, Amazon, and Etsy: 5: Agent Swarm
+    section Payout and Growth
+      Automated prepaid escrow and instant UPI payout: 5: Agent Swarm
       Working capital micro-credit unlocked: 4: Agent Swarm
 ```
 
@@ -267,75 +267,75 @@ CraftVerse is structured into six resilient layers with a cross-cutting Trust, S
 
 ```mermaid
 flowchart TB
-    subgraph L1[Layer 1: User & Field Experience]
-        U1[Offline-First Artisan App]
-        U2[Cooperative Web Dashboard]
-        U3[WhatsApp Conversational Bot]
-        U4[IVR & Missed-Call Voice Line]
-        U5[Craft Mitra Field Console]
-        U6[Buyer Craft Passport Web Portal]
+    subgraph L1 ["Layer 1: User & Field Experience"]
+        U1["Offline-First Artisan App"]
+        U2["Cooperative Web Dashboard"]
+        U3["WhatsApp Conversational Bot"]
+        U4["IVR & Missed-Call Voice Line"]
+        U5["Craft Mitra Field Console"]
+        U6["Buyer Craft Passport Web Portal"]
     end
 
-    subgraph L2[Layer 2: Multilingual Speech & Language Hub]
-        V1[Sarvam Indic ASR / STT]
-        V2[Code-Mixed Neural Translation]
-        V3[Natural Expressive TTS Audio Engine]
+    subgraph L2 ["Layer 2: Multilingual Speech & Language Hub"]
+        V1["Sarvam Indic ASR / STT"]
+        V2["Code-Mixed Neural Translation"]
+        V3["Natural Expressive TTS Audio Engine"]
     end
 
-    subgraph L3[Layer 3: Agentic Swarm & Intelligence]
-        BM[Artisan Business Manager - Orchestrator]
-        subgraph CoreSwarm[20 Autonomous Specialized Agents]
+    subgraph L3 ["Layer 3: Agentic Swarm & Intelligence"]
+        BM["Artisan Business Manager (Orchestrator)"]
+        subgraph CoreSwarm ["20 Autonomous Specialized Agents"]
             direction TB
-            A1[1. Product Intelligence]
-            A2[2. Craft Storytelling]
-            A3[3. Pricing Intelligence]
-            A4[4. Content Creation & Coach]
-            A5[5. Buyer Discovery]
-            A6[6. Negotiation Assistant]
-            A7[7. Advertising Management]
-            A8[8. Marketplace Sync]
-            A9[9. Order & Fulfillment]
-            A10[10. Business Analytics]
-            A11[11. Trust & Provenance]
-            A12[12. Finance & Schemes]
-            A13[13. Production & Supply]
-            A14[14. Customer Support]
-            A15[15. Learning & Design]
-            A16[16. Export & Compliance]
-            A17[17. Customer Discovery]
-            A18[18. Community & Live]
-            A19[19. Wellbeing & Safety]
-            A20[20. Inventory & Aftercare]
+            A1["1. Product Intelligence"]
+            A2["2. Craft Storytelling"]
+            A3["3. Pricing Intelligence"]
+            A4["4. Content Creation & Coach"]
+            A5["5. Buyer Discovery"]
+            A6["6. Negotiation Assistant"]
+            A7["7. Advertising Management"]
+            A8["8. Marketplace Sync"]
+            A9["9. Order & Fulfillment"]
+            A10["10. Business Analytics"]
+            A11["11. Trust & Provenance"]
+            A12["12. Finance & Schemes"]
+            A13["13. Production & Supply"]
+            A14["14. Customer Support"]
+            A15["15. Learning & Design"]
+            A16["16. Export & Compliance"]
+            A17["17. Customer Discovery"]
+            A18["18. Community & Live"]
+            A19["19. Wellbeing & Safety"]
+            A20["20. Inventory & Aftercare"]
         end
     end
 
-    subgraph GOV[Cross-Cutting: Trust, Safety & Governance]
-        P1[Policy Engine & Risk Matrix]
-        P2[Fraud & Scam Shield]
-        P3[Zero-Hallucination Guard]
-        P4[Tamper-Evident Audit Ledger]
+    subgraph GOV ["Cross-Cutting: Trust, Safety & Governance"]
+        P1["Policy Engine & Risk Matrix"]
+        P2["Fraud & Scam Shield"]
+        P3["Zero-Hallucination Guard"]
+        P4["Tamper-Evident Audit Ledger"]
     end
 
-    subgraph L4[Layer 4: Unified Commerce Engine]
-        C1[Catalog & Media Graph]
-        C2[Real-Time Inventory Res]
-        C3[Payout & Escrow Ledger]
-        C4[Logistics & Rate Engine]
+    subgraph L4 ["Layer 4: Unified Commerce Engine"]
+        C1["Catalog & Media Graph"]
+        C2["Real-Time Inventory Res"]
+        C3["Payout & Escrow Ledger"]
+        C4["Logistics & Rate Engine"]
     end
 
-    subgraph L5[Layer 5: Gateway & External Adapters]
-        G1[ONDC Beckn Gateway]
-        G2[Marketplace APIs (Amazon/Flipkart/Etsy)]
-        G3[Payment Rails (UPI / Escrow)]
-        G4[Logistics APIs (Shiprocket/India Post)]
-        G5[Govt Portals (GeM / Schemes API)]
+    subgraph L5 ["Layer 5: Gateway & External Adapters"]
+        G1["ONDC Beckn Gateway"]
+        G2["Marketplace APIs (Amazon, Flipkart, Etsy)"]
+        G3["Payment Rails (UPI & Escrow)"]
+        G4["Logistics APIs (Shiprocket & India Post)"]
+        G5["Govt Portals (GeM & Schemes API)"]
     end
 
-    subgraph L6[Layer 6: Distributed Data Infrastructure]
-        D1[(PostgreSQL Cluster)]
-        D2[(Redis Cache & Queues)]
-        D3[(Qdrant Vector Database)]
-        D4[(Object Storage S3/GCS)]
+    subgraph L6 ["Layer 6: Distributed Data Infrastructure"]
+        D1[("PostgreSQL Cluster")]
+        D2[("Redis Cache & Queues")]
+        D3[("Qdrant Vector Database")]
+        D4[("Object Storage S3 / GCS")]
     end
 
     L1 --> L2 --> BM
@@ -426,24 +426,24 @@ sequenceDiagram
     participant BM as Orchestrator (Business Manager)
     participant Swarm as Specialized Agents
     participant Policy as Policy & Approval Gate
-    participant ONDC as ONDC / Global Gateways
+    participant ONDC as ONDC and Global Gateways
     actor Buyer as Global Customer
 
-    Artisan->>Voice: "Maine 20 nayi saree banayi hai, bechne me madad karo" (Spoken)
-    Voice->>BM: Dispatches normalized intent & audio transcript
-    BM->>Swarm: Triggers Live Capture Coach & Product Vision
+    Artisan->>Voice: Spoken: "Maine 20 nayi saree banayi hai, bechne me madad karo"
+    Voice->>BM: Dispatches normalized intent and audio transcript
+    BM->>Swarm: Triggers Live Capture Coach and Product Vision
     Artisan->>Swarm: Captures 4 guided shots with Live Coach
-    Swarm->>Swarm: Generates Craft Story, ALV Fair Price (₹3,400) & Digital Passport
-    Swarm->>Policy: Submits Draft Listing & Price Proposal
+    Swarm->>Swarm: Generates Craft Story, ALV Fair Price (₹3,400), and Digital Passport
+    Swarm->>Policy: Submits Draft Listing and Price Proposal
     Policy->>Artisan: Spoken Review: "We suggest ₹3,400. Direct payout ₹2,650. Shall I list?"
-    Artisan->>Policy: "Haan, theek hai" (Voice Confirmation)
-    Policy->>ONDC: Publishes to ONDC, Amazon & WhatsApp Catalog
-    Buyer->>ONDC: Discovers & places prepaid order
+    Artisan->>Policy: Spoken Confirmation: "Haan, theek hai"
+    Policy->>ONDC: Publishes to ONDC, Amazon, and WhatsApp Catalog
+    Buyer->>ONDC: Discovers and places prepaid order
     ONDC->>BM: Webhook: New Order Received
-    BM->>Voice: "Badhai ho! Bangalore se 1 saree ka order aaya hai!"
+    BM->>Voice: Alert: "Badhai ho! Bangalore se 1 saree ka order aaya hai!"
     BM->>Swarm: Prepares India Post pickup label with QR Passport
-    Swarm->>Buyer: Dispatches item; updates live delivery tracking
-    Buyer->>Swarm: Scans QR tag -> views artisan story & verifies authenticity
+    Swarm->>Buyer: Dispatches item and updates live delivery tracking
+    Buyer->>Swarm: Scans QR tag, views artisan story, and verifies authenticity
     ONDC->>Artisan: Automated instant UPI payout deposited in bank account
 ```
 
